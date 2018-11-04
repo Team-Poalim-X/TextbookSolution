@@ -12,3 +12,11 @@ describe("Account", function() {
     });
 });
 */
+
+
+describe("Account", function() {
+    it("always succeed", async function() {
+    var balance = 5;
+	expect (balance).toEqual(5);
+    });
+});
